@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import profileImg from "../assets/profile.jpeg";
+import profileImg from "../assets/tejprofile.jpeg";
+
 
 export default function ProfileModal({ isOpen, onClose }) {
   if (!isOpen) return null;

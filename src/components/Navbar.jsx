@@ -8,7 +8,7 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import { GITHUB_LINK, LINKEDIN_LINK, GMAIL_LINK, RESUME_LINK } from "../constants";
-import profileImg from "../assets/profile.jpeg";
+import profileImg from "../assets/tejprofile.jpeg";
 
 export default function Navbar({
   isProfileModalOpen,
