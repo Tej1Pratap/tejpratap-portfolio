@@ -173,7 +173,7 @@ export default function Projects({ openProject }) {
       • Worked with database management and API integration for smooth data flow
       • Collaborated with team members using Git and GitHub for version control and project management`,
       github: "https://github.com/your-github/library-project",
-      live: "https://your-library-project.vercel.app",
+      live: "https://smartlibai.vercel.app/login",
       tech: [
         "AI Integration",
         "React",
