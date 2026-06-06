@@ -172,7 +172,7 @@ export default function Projects({ openProject }) {
       • Added Razorpay payment gateway for secure online fine and membership payments
       • Worked with database management and API integration for smooth data flow
       • Collaborated with team members using Git and GitHub for version control and project management`,
-      github: "https://github.com/your-github/library-project",
+      github: "https://github.com/Tej1Pratap/Smart-Ai-Based-library-assistent-and-Management-System",
       live: "https://smartlibai.vercel.app/login",
       tech: [
         "AI Integration",
