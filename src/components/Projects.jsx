@@ -199,6 +199,7 @@ export default function Projects({ openProject }) {
       • Added Razorpay payment gateway for secure online fine and membership payments
       • Worked with database management and API integration for smooth data flow
       • Collaborated with team members using Git and GitHub for version control and project management`,
+<<<<<<< HEAD
       github: "https://github.com/your-github/library-project",
         live: "https://your-library-project.vercel.app",
           tech: [
@@ -215,6 +216,24 @@ export default function Projects({ openProject }) {
               "/screenshots/Library4.png",
               "/screenshots/Library5.png",
             ],
+=======
+      github: "https://github.com/Tej1Pratap/Smart-Ai-Based-library-assistent-and-Management-System",
+      live: "https://smartlibai.vercel.app/login",
+      tech: [
+        "AI Integration",
+        "React",
+        "Springboot",
+        "MySQL",
+        "Razorpay Api Key",
+      ],
+      images: [
+        "/screenshots/Library.png",
+        "/screenshots/Library2.png",
+        "/screenshots/Library3.png",
+        "/screenshots/Library4.png",
+        "/screenshots/Library5.png",
+      ],
+>>>>>>> 304e669f2f5d69cb3c43936cc77acab48ce71b8c
     },
 {
   title: "Weather App",
