@@ -4,8 +4,23 @@ import { FaFilePdf } from "react-icons/fa";
 export default function Certifications() {
   const certifications = [
     {
+      title: "Spring Core & MVC Certification",
+      issuer: "Upgrad ",
+      pdf: "/certifications/SpringMVC Certificate.pdf",
+    },
+    {
+      title: "Advanced Software Engineering Job Simulation",
+      issuer: "Forage",
+      pdf: "/certifications/Walmart Certificate.pdf",
+    },
+    {
+      title: "ReactJS Certification",
+      issuer: "Infosys Springboard",
+      pdf: "/certifications/ReactJS Infosys.pdf",
+    },
+    {
       title: "Software Engineering Job Simulation",
-      issuer: "Forage, Hewlett packard Enterprise` ",
+      issuer: "Forage",
       pdf: "/certifications/Hewalat.pdf",
     },
     {

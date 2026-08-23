@@ -61,9 +61,8 @@ function ProjectCard({ project, index, openProject }) {
               {project.images.map((_, i) => (
                 <div
                   key={i}
-                  className={`h-1.5 rounded-full transition-all duration-300 ${
-                    i === imageIndex ? "w-4 bg-green-400" : "w-1.5 bg-white/50"
-                  }`}
+                  className={`h-1.5 rounded-full transition-all duration-300 ${i === imageIndex ? "w-4 bg-green-400" : "w-1.5 bg-white/50"
+                    }`}
                 />
               ))}
             </div>
@@ -140,31 +139,59 @@ function ProjectCard({ project, index, openProject }) {
 export default function Projects({ openProject }) {
   const projects = [
     {
-      title: "Smart Agro-Defence Intelligence & Monitoring",
-      desc: `Protect you crops with state-of-the-art AI disease detection and precise farm management. Early detection leads to healthier fields and 30% higher yields.
-• Developed a responsive and interactive frontend using React  
-• Built secure REST APIs and backend services using Spring Boot  
-• Integrated AI/ML models using Python for intelligent features  
-• Implemented NLP functionalities for text processing and analysis  
-• Worked with databases and API integration for seamless data flow  
-• Collaborated with team members using Git and GitHub`,
-      github: "https://github.com/your-github/ai-project",
-      live: "",
-      tech: [
-        "Springboot",
-        "ReactJs",
-        "Python AI/ML",
-        "OpenAI API",
-      ],
-      images: [
-        "/screenshots/crop1.png",
-        "/screenshots/crop2.png",
-        "/screenshots/crop3.png"
-      ],
+      title: "Carbon Footprint & Sustainability Management Platform",
+
+      desc: `A web-based platform and PWA to track, calculate, and reduce carbon emissions through personalized sustainability insights.
+      • Developed responsive frontend using React
+      • Built REST APIs using Spring Boot
+      • Implemented carbon emission tracking for transport, electricity, food, and shopping
+      • Added sustainability goals and progress tracking
+      • Integrated MySQL database and API services
+      • Collaborated using Git and GitHub`,
+
+      github: "https://github.com/Tej1Pratap/Carbon-Footprint",
+    live: "https://carbon-footprint-drab.vercel.app/",
+    tech: [
+      "Java",
+      "Springboot",
+      "Spring Security",
+      "ReactJs",
+      "Rest APIs",
+      "OpenAI API",
+    ],
+    images: [
+      "/screenshots/CF1.png",
+      "/screenshots/CF2.png",
+      "/screenshots/CF3.png",
+      "/screenshots/CF4.png"
+    ],
     },
-    {
-      title: "AI Based Library Management System",
-      desc: `A platform that manages books for physical and digital libraries with AI assistant support.
+{
+  title: "Smart Agro-Defence Intelligence & Monitoring",
+    desc: `Protect you crops with state-of-the-art AI disease detection and precise farm management. Early detection leads to healthier fields and 30% higher yields.
+      • Developed a responsive and interactive frontend using React  
+      • Built secure REST APIs and backend services using Spring Boot  
+      • Integrated AI/ML models using Python for intelligent features  
+      • Implemented NLP functionalities for text processing and analysis  
+      • Worked with databases and API integration for seamless data flow  
+      • Collaborated with team members using Git and GitHub`,
+      github: "https://github.com/your-github/ai-project",
+        live: "",
+          tech: [
+            "Springboot",
+            "ReactJs",
+            "Python AI/ML",
+            "OpenAI API",
+          ],
+            images: [
+              "/screenshots/crop1.png",
+              "/screenshots/crop2.png",
+              "/screenshots/crop3.png"
+            ],
+    },
+{
+  title: "AI Based Library Management System",
+    desc: `A platform that manages books for physical and digital libraries with AI assistant support.
       • Developed a responsive and interactive frontend using React for seamless user experience
       • Built secure REST APIs and backend services using Spring Boot
       • Integrated AI-based OCR technology for book scanning and automated text extraction
@@ -173,79 +200,79 @@ export default function Projects({ openProject }) {
       • Worked with database management and API integration for smooth data flow
       • Collaborated with team members using Git and GitHub for version control and project management`,
       github: "https://github.com/your-github/library-project",
-      live: "https://your-library-project.vercel.app",
-      tech: [
-        "AI Integration",
-        "React",
-        "Springboot",
-        "MySQL",
-        "Razorpay Api Key",
-      ],
-      images: [
-        "/screenshots/Library.png",
-        "/screenshots/Library2.png",
-        "/screenshots/Library3.png",
-        "/screenshots/Library4.png",
-        "/screenshots/Library5.png",
-      ],
+        live: "https://your-library-project.vercel.app",
+          tech: [
+            "AI Integration",
+            "React",
+            "Springboot",
+            "MySQL",
+            "Razorpay Api Key",
+          ],
+            images: [
+              "/screenshots/Library.png",
+              "/screenshots/Library2.png",
+              "/screenshots/Library3.png",
+              "/screenshots/Library4.png",
+              "/screenshots/Library5.png",
+            ],
     },
-    {
-      title: "Weather App",
-      desc: "Displays real-time weather data using public APIs.",
+{
+  title: "Weather App",
+    desc: "Displays real-time weather data using public APIs.",
       github: "https://github.com/Tej1Pratap/WeatherApp",
-      live: "https://tej1pratap.github.io/WeatherApp/",
-      tech: [
-        "Weather API",
-        "JavaScript",
-        "HTML",
-        "CSS",
-      ],
-      images: [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop"
-      ],
+        live: "https://tej1pratap.github.io/WeatherApp/",
+          tech: [
+            "Weather API",
+            "JavaScript",
+            "HTML",
+            "CSS",
+          ],
+            images: [
+              "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop"
+            ],
     },
-    {
-      title: "Tic Tac Toe",
-      desc: "Interactive game built using JavaScript with responsive gameplay.",
+{
+  title: "Tic Tac Toe",
+    desc: "Interactive game built using JavaScript with responsive gameplay.",
       github: "https://github.com/Tej1Pratap/Tic-Tac-Toe-Game",
-      live: "https://tej1pratap.github.io/Tic-Tac-Toe-Game/",
-      tech: [
-        "JavaScript",
-        "HTML",
-        "CSS",
-      ],
-      images: [
-        "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1553481187-be93c21490a9?q=80&w=1200&auto=format&fit=crop"
-      ],
+        live: "https://tej1pratap.github.io/Tic-Tac-Toe-Game/",
+          tech: [
+            "JavaScript",
+            "HTML",
+            "CSS",
+          ],
+            images: [
+              "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1553481187-be93c21490a9?q=80&w=1200&auto=format&fit=crop"
+            ],
     },
   ];
 
-  return (
-    <section id="projects" className="max-w-7xl mx-auto px-4 sm:px-6 py-20">
-      <motion.h2
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: false }}
-        className="text-3xl sm:text-5xl font-bold mb-12"
-      >
-        Featured Projects
-      </motion.h2>
+return (
+  <section id="projects" className="max-w-7xl mx-auto px-4 sm:px-6 py-20">
+    <motion.h2
+      initial={{ opacity: 0, y: 60 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: false }}
+      className="text-3xl sm:text-5xl font-bold mb-12"
+    >
+      Featured Projects
+    </motion.h2>
 
-      <div className="flex gap-4 sm:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            project={project}
-            index={index}
-            openProject={openProject}
-          />
-        ))}
-      </div>
-    </section>
-  );
+    <div className="flex gap-4 sm:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
+      {projects.map((project, index) => (
+        <ProjectCard
+          key={index}
+          project={project}
+          index={index}
+          openProject={openProject}
+        />
+      ))}
+    </div>
+  </section>
+);
 }
